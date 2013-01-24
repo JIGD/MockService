@@ -1,3 +1,6 @@
+var util = require("util"),  
+    http = require("http");
+
 var findResponseFor = function(body, responseMap) {
   var result = {file: "searchRS.xml"};
   responseMap.forEach(function(candidate) {
@@ -5,9 +8,18 @@ var findResponseFor = function(body, responseMap) {
       result = candidate.response;
       return;
     } 
-  })
+  });
   return result;
-}
+};
+
+function writeWebserviceToResponse(request, response) {
+  var params = url.parse(request.url);
+  var options = {
+    host: 'your.webservice.com',
+    path: params.path,
+    headers: {'Authorization' : request.headers.authorization}
+  };
+
 
   var req = http.get(options, function(res) {
     res.setEncoding('utf8');
@@ -26,4 +38,4 @@ var findResponseFor = function(body, responseMap) {
 }
 
 exports.findResponseFor = findResponseFor;
-exports.findResponseFor = req;
+exports.writeWebserviceToResponse= writeWebserviceToResponse;
