@@ -37,6 +37,13 @@ So the mock will search for "<regexrofindapattern" and "<findItemsByKeywordsRequ
 
 if we had a request with these body:
 
-<?xml version="1.0"?> <findItemsByKeywordsResponse xmlns="http://www.ebay.com/marketplace/search/v1/services"> <ack>Success</ack> <version>1.12.0</version> <timestamp>2013-01-25T03:36:47.420Z</timestamp> -<searchResult count="5">
+<pre>
+<?xml version="1.0"?> 
+<findItemsByKeywordsResponse xmlns="http://www.ebay.com/marketplace/search/v1/services"> 
+<ack>Success</ack> 
+<version>1.12.0</version> 
+<timestamp>2013-01-25T03:36:47.420Z</timestamp> 
+<searchResult count="5">
+</pre>
 
 it would return the searchRS.xml since it matches.
