@@ -16,8 +16,8 @@ Remember, to use a mocking service you have to point your app/system url to the 
 E.G. Change URL = https://EbayWS.com/something to http://localhost:1337
 
 
-Functionality
-===========
+Functionality:
+-------------------------------------------------------------------
 
 What this does is check the request body using the regex values in responses.js, it will send the listed file. If there are no matches it will send the default file listed in mock.js
 
