@@ -23,7 +23,7 @@ What this does is check the request body using the regex values in responses.js,
 
 For example: we have these patterns and responses: 
 
-  	pattern: /<regexrofindapattern/,
+  	pattern: /regexrofindapattern/,
 		response: {
 			file: "someFile.xml"
 		}
@@ -35,15 +35,10 @@ For example: we have these patterns and responses:
 
 So the mock will search for "<regexrofindapattern" and "<findItemsByKeywordsRequest" or any other regex pattern/file you want to use.
 
-if we had a request with these body:
+if we had a request with these in its XML:
 
 <pre>
-<?xml version="1.0"?> 
-<findItemsByKeywordsResponse xmlns="http://www.ebay.com/marketplace/search/v1/services"> 
-<ack>Success</ack> 
-<version>1.12.0</version> 
-<timestamp>2013-01-25T03:36:47.420Z</timestamp> 
-<searchResult count="5">
+ &gt findItemsByResponse
 </pre>
 
 it would return the searchRS.xml since it matches.
