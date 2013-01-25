@@ -2,7 +2,7 @@ var util = require("util"),
     http = require("http");
 
 var findResponseFor = function(body, responseMap) {
-  var result = {file: "searchRS.xml"};
+  var result = {file: "error.xml"};
   responseMap.forEach(function(candidate) {
     if (body.match(candidate.pattern)) {
       result = candidate.response;

@@ -27,9 +27,9 @@ var server = http.createServer(function(request, response) {
         request.on("data", function(data) {
             console.log("data (tick: )");
             body += data.toString();
+
         });
         request.on("end", function() {
-
           var responseFile = utils.findResponseFor(body, require('./responses').getResponses());
           if (responseFile !== null) {
             console.log("Response found: " + util.inspect(responseFile));
