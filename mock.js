@@ -49,7 +49,6 @@ var extension;
 var input1 = process.argv[2];
 var input2 = process.argv[3];
 
-console.log(typeof(input1) + " " + typeof(input2));
 if(!isNaN(input1)) {
   port = input1;
 } else {
