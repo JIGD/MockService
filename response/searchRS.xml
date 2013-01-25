@@ -1,0 +1,248 @@
+<?xml version="1.0" ?>
+<findItemsByKeywordsResponse xmlns="http://www.ebay.com/marketplace/search/v1/services">
+	<ack>Success</ack>
+	<version>1.12.0</version>
+	<timestamp>2013-01-25T03:36:47.420Z</timestamp>
+	<searchResult count="5">
+		<item>
+			<itemId>261158062158</itemId>
+			<title>Vintage Lot Electronic Games Digital Derby Blip Simon Quiz Wiz Missile Invader</title>
+			<globalId>EBAY-US</globalId>
+			<primaryCategory>
+				<categoryId>155342</categoryId>
+				<categoryName>Vintage (Pre-1990)</categoryName>
+			</primaryCategory>
+			<galleryURL>http://thumbs3.ebaystatic.com/m/m_H1tnIeNJyqHHtzd6S_fnA/140.jpg</galleryURL>
+			<viewItemURL>http://www.ebay.com/itm/Vintage-Lot-Electronic-Games-Digital-Derby-Blip-Simon-Quiz-Wiz-Missile-Invader-/261158062158?pt=Games_US</viewItemURL>
+			<paymentMethod>PayPal</paymentMethod>
+			<autoPay>false</autoPay>
+			<postalCode>43925</postalCode>
+			<location>East Springfield,OH,USA</location>
+			<country>US</country>
+			<shippingInfo>
+				<shippingType>Calculated</shippingType>
+				<shipToLocations>US</shipToLocations>
+				<expeditedShipping>false</expeditedShipping>
+				<oneDayShippingAvailable>false</oneDayShippingAvailable>
+				<handlingTime>1</handlingTime>
+			</shippingInfo>
+			<sellingStatus>
+				<currentPrice currencyId="USD">25.99</currentPrice>
+				<convertedCurrentPrice currencyId="USD">25.99</convertedCurrentPrice>
+				<bidCount>0</bidCount>
+				<sellingState>Active</sellingState>
+				<timeLeft>P0DT0H6M26S</timeLeft>
+			</sellingStatus>
+			<listingInfo>
+				<bestOfferEnabled>false</bestOfferEnabled>
+				<buyItNowAvailable>true</buyItNowAvailable>
+				<buyItNowPrice currencyId="USD">100.0</buyItNowPrice>
+				<convertedBuyItNowPrice currencyId="USD">100.0</convertedBuyItNowPrice>
+				<startTime>2013-01-20T03:43:13.000Z</startTime>
+				<endTime>2013-01-25T03:43:13.000Z</endTime>
+				<listingType>AuctionWithBIN</listingType>
+				<gift>false</gift>
+			</listingInfo>
+			<returnsAccepted>true</returnsAccepted>
+			<condition>
+				<conditionId>3000</conditionId>
+				<conditionDisplayName>Used</conditionDisplayName>
+			</condition>
+			<isMultiVariationListing>false</isMultiVariationListing>
+			<topRatedListing>true</topRatedListing>
+		</item>
+		<item>
+			<itemId>221181305414</itemId>
+			<title>Vintage SIMON SAYS Electronic Game MB Game 1978 In Box</title>
+			<globalId>EBAY-US</globalId>
+			<primaryCategory>
+				<categoryId>158733</categoryId>
+				<categoryName>Bop It &amp; Simon</categoryName>
+			</primaryCategory>
+			<galleryURL>http://thumbs3.ebaystatic.com/m/mScJUrGmtZCt1m_CJ-q28tA/140.jpg</galleryURL>
+			<viewItemURL>http://www.ebay.com/itm/Vintage-SIMON-SAYS-Electronic-Game-MB-Game-1978-Box-/221181305414?pt=Games_US</viewItemURL>
+			<paymentMethod>PayPal</paymentMethod>
+			<autoPay>false</autoPay>
+			<postalCode>85364</postalCode>
+			<location>Yuma,AZ,USA</location>
+			<country>US</country>
+			<shippingInfo>
+				<shippingType>Calculated</shippingType>
+				<shipToLocations>US</shipToLocations>
+				<shipToLocations>CA</shipToLocations>
+				<shipToLocations>GB</shipToLocations>
+				<shipToLocations>AU</shipToLocations>
+				<shipToLocations>DE</shipToLocations>
+				<shipToLocations>JP</shipToLocations>
+				<expeditedShipping>true</expeditedShipping>
+				<oneDayShippingAvailable>false</oneDayShippingAvailable>
+				<handlingTime>1</handlingTime>
+			</shippingInfo>
+			<sellingStatus>
+				<currentPrice currencyId="USD">75.0</currentPrice>
+				<convertedCurrentPrice currencyId="USD">75.0</convertedCurrentPrice>
+				<sellingState>Active</sellingState>
+				<timeLeft>P28DT21H48M33S</timeLeft>
+			</sellingStatus>
+			<listingInfo>
+				<bestOfferEnabled>false</bestOfferEnabled>
+				<buyItNowAvailable>false</buyItNowAvailable>
+				<startTime>2013-01-24T01:25:20.000Z</startTime>
+				<endTime>2013-02-23T01:25:20.000Z</endTime>
+				<listingType>FixedPrice</listingType>
+				<gift>false</gift>
+			</listingInfo>
+			<returnsAccepted>true</returnsAccepted>
+			<condition>
+				<conditionId>3000</conditionId>
+				<conditionDisplayName>Used</conditionDisplayName>
+			</condition>
+			<isMultiVariationListing>false</isMultiVariationListing>
+			<topRatedListing>true</topRatedListing>
+		</item>
+		<item>
+			<itemId>121055373629</itemId>
+			<title>Vintage Simon game mIlton Bradley 1978 with Box </title>
+			<globalId>EBAY-US</globalId>
+			<primaryCategory>
+				<categoryId>158733</categoryId>
+				<categoryName>Bop It &amp; Simon</categoryName>
+			</primaryCategory>
+			<galleryURL>http://thumbs2.ebaystatic.com/m/mXmazN8ovLLLyeDqo4HHAGA/140.jpg</galleryURL>
+			<viewItemURL>http://www.ebay.com/itm/Vintage-Simon-game-mIlton-Bradley-1978-Box-/121055373629?pt=Games_US</viewItemURL>
+			<paymentMethod>PayPal</paymentMethod>
+			<autoPay>false</autoPay>
+			<postalCode>44287</postalCode>
+			<location>West Salem,OH,USA</location>
+			<country>US</country>
+			<shippingInfo>
+				<shippingType>Calculated</shippingType>
+				<shipToLocations>US</shipToLocations>
+				<expeditedShipping>false</expeditedShipping>
+				<oneDayShippingAvailable>false</oneDayShippingAvailable>
+				<handlingTime>1</handlingTime>
+			</shippingInfo>
+			<sellingStatus>
+				<currentPrice currencyId="USD">8.88</currentPrice>
+				<convertedCurrentPrice currencyId="USD">8.88</convertedCurrentPrice>
+				<bidCount>2</bidCount>
+				<sellingState>Active</sellingState>
+				<timeLeft>P2DT22H33M2S</timeLeft>
+			</sellingStatus>
+			<listingInfo>
+				<bestOfferEnabled>false</bestOfferEnabled>
+				<buyItNowAvailable>false</buyItNowAvailable>
+				<startTime>2013-01-21T02:09:49.000Z</startTime>
+				<endTime>2013-01-28T02:09:49.000Z</endTime>
+				<listingType>Auction</listingType>
+				<gift>false</gift>
+			</listingInfo>
+			<returnsAccepted>true</returnsAccepted>
+			<condition>
+				<conditionId>3000</conditionId>
+				<conditionDisplayName>Used</conditionDisplayName>
+			</condition>
+			<isMultiVariationListing>false</isMultiVariationListing>
+			<topRatedListing>false</topRatedListing>
+		</item>
+		<item>
+			<itemId>251214236614</itemId>
+			<title>Simon &amp; Simon - Season 1 (DVD, 2006, 4-Disc Set)</title>
+			<globalId>EBAY-ENCA</globalId>
+			<primaryCategory>
+				<categoryId>617</categoryId>
+				<categoryName>DVDs &amp; Blu-ray Discs</categoryName>
+			</primaryCategory>
+			<galleryURL>http://thumbs3.ebaystatic.com/m/m8pRKSjS0tb9_oPtuNc967g/140.jpg</galleryURL>
+			<viewItemURL>http://www.ebay.com/itm/Simon-Simon-Season-1-DVD-2006-4-Disc-Set-/251214236614?pt=US_DVD_HD_DVD_Blu_ray</viewItemURL>
+			<productId type="ReferenceID">54744119</productId>
+			<paymentMethod>PayPal</paymentMethod>
+			<autoPay>false</autoPay>
+			<location>Canada</location>
+			<country>CA</country>
+			<shippingInfo>
+				<shippingServiceCost currencyId="USD">11.95</shippingServiceCost>
+				<shippingType>Flat</shippingType>
+				<shipToLocations>US</shipToLocations>
+				<shipToLocations>CA</shipToLocations>
+				<expeditedShipping>false</expeditedShipping>
+				<oneDayShippingAvailable>false</oneDayShippingAvailable>
+				<handlingTime>3</handlingTime>
+			</shippingInfo>
+			<sellingStatus>
+				<currentPrice currencyId="USD">7.99</currentPrice>
+				<convertedCurrentPrice currencyId="USD">7.99</convertedCurrentPrice>
+				<bidCount>2</bidCount>
+				<sellingState>Active</sellingState>
+				<timeLeft>P0DT0H4M9S</timeLeft>
+			</sellingStatus>
+			<listingInfo>
+				<bestOfferEnabled>false</bestOfferEnabled>
+				<buyItNowAvailable>false</buyItNowAvailable>
+				<startTime>2013-01-15T03:40:56.000Z</startTime>
+				<endTime>2013-01-25T03:40:56.000Z</endTime>
+				<listingType>Auction</listingType>
+				<gift>false</gift>
+			</listingInfo>
+			<returnsAccepted>false</returnsAccepted>
+			<condition>
+				<conditionId>1000</conditionId>
+				<conditionDisplayName>Brand New</conditionDisplayName>
+			</condition>
+			<isMultiVariationListing>false</isMultiVariationListing>
+			<topRatedListing>false</topRatedListing>
+		</item>
+		<item>
+			<itemId>121053729970</itemId>
+			<title>GE Security NX-650N 60-362N-10-319.9 Wireless Transmitter UTC Simon XTi XT Cncrd</title>
+			<globalId>EBAY-US</globalId>
+			<primaryCategory>
+				<categoryId>67015</categoryId>
+				<categoryName>Systems</categoryName>
+			</primaryCategory>
+			<galleryURL>http://thumbs3.ebaystatic.com/m/m-giB-Y7YyVQwvBU8fpLvlA/140.jpg</galleryURL>
+			<viewItemURL>http://www.ebay.com/itm/GE-Security-NX-650N-60-362N-10-319-9-Wireless-Transmitter-UTC-Simon-XTi-XT-Cncrd-/121053729970?pt=BI_Security_Fire_Protection</viewItemURL>
+			<paymentMethod>PayPal</paymentMethod>
+			<autoPay>false</autoPay>
+			<postalCode>89121</postalCode>
+			<location>Las Vegas,NV,USA</location>
+			<country>US</country>
+			<shippingInfo>
+				<shippingType>Calculated</shippingType>
+				<shipToLocations>US</shipToLocations>
+				<expeditedShipping>false</expeditedShipping>
+				<oneDayShippingAvailable>false</oneDayShippingAvailable>
+				<handlingTime>2</handlingTime>
+			</shippingInfo>
+			<sellingStatus>
+				<currentPrice currencyId="USD">30.0</currentPrice>
+				<convertedCurrentPrice currencyId="USD">30.0</convertedCurrentPrice>
+				<bidCount>0</bidCount>
+				<sellingState>Active</sellingState>
+				<timeLeft>P0DT0H39M15S</timeLeft>
+			</sellingStatus>
+			<listingInfo>
+				<bestOfferEnabled>false</bestOfferEnabled>
+				<buyItNowAvailable>false</buyItNowAvailable>
+				<startTime>2013-01-18T04:16:02.000Z</startTime>
+				<endTime>2013-01-25T04:16:02.000Z</endTime>
+				<listingType>Auction</listingType>
+				<gift>false</gift>
+			</listingInfo>
+			<returnsAccepted>false</returnsAccepted>
+			<condition>
+				<conditionId>3000</conditionId>
+				<conditionDisplayName>Used</conditionDisplayName>
+			</condition>
+			<isMultiVariationListing>false</isMultiVariationListing>
+			<topRatedListing>false</topRatedListing>
+		</item>
+	</searchResult>
+	<paginationOutput>
+		<totalPages>17413</totalPages>
+		<totalEntries>87064</totalEntries>
+		<pageNumber>1</pageNumber>
+		<entriesPerPage>5</entriesPerPage>
+	</paginationOutput>
+	<itemSearchURL>http://www.ebay.com/sch/i.html?_nkw=simon&amp;_ddo=1&amp;_ipg=5&amp;_pgn=1</itemSearchURL>
+</findItemsByKeywordsResponse>

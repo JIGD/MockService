@@ -1,4 +1,4 @@
-var util = require("util"),  
+var util = require("util"),
     http = require("http");
 
 var findResponseFor = function(body, responseMap) {
@@ -7,9 +7,9 @@ var findResponseFor = function(body, responseMap) {
     if (body.match(candidate.pattern)) {
       result = candidate.response;
       return;
-    } 
+    }
   });
-  return result;
+  return result.file;
 };
 
 function writeWebserviceToResponse(request, response) {
@@ -26,7 +26,7 @@ function writeWebserviceToResponse(request, response) {
     response.writeHead(res.statusCode, res.headers);
     res.on('data', function (chunk) {
       response.write(chunk);
-    });  
+    });
     res.on('end', function() {
       response.end();
     });

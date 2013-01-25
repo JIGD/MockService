@@ -1,24 +1,24 @@
-var util = require("util"),  
+var util = require("util"),
     http = require("http"),
     url  = require("url"),
     fileSystem = require('fs'),
     path = require('path'),
     utils = require('./utils'),
+    events = require('events'),
+    emitter = new events.EventEmitter(),
     responseDir = path.join(__dirname, 'response');
 
 
 function writeFileToResponse(responseFile, response) {
   response.writeHead(200, {"Content-Type": "application/xml"});
-  server.on('data', function(chunk) {
-      response.write(chunk);
-    })
-    .addListener('end', function() {
-      response.end();
-    });
+  responseDir = path.join(responseDir, responseFile);
+  file = fileSystem.createReadStream(responseDir);
+util.pump(file, response);
+console.log("Message sent!");
 }
 
 
-var server = http.createServer(function(request, response) {  
+var server = http.createServer(function(request, response) {
   var params = url.parse(request.url);
   var body = "";
   console.log("request params: " + util.inspect(params));
@@ -33,7 +33,10 @@ var server = http.createServer(function(request, response) {
           var responseFile = utils.findResponseFor(body, require('./responses').getResponses());
           if (responseFile !== null) {
             console.log("Response found: " + util.inspect(responseFile));
+
             writeFileToResponse(responseFile, response);
+
+
           } else {
             console.log("Response not found");
           }
