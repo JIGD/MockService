@@ -28,7 +28,7 @@ For example: we have these patterns and responses:
 			file: "someFile.xml"
 		}
 	}, {
-		pattern: /<findItemsByKeywordsRequest/,
+		pattern: /findItemsByResponse/,
 		response: {
 			file: "searchRS.xml"
 		}
@@ -38,7 +38,9 @@ So the mock will search for "<regexrofindapattern" and "<findItemsByKeywordsRequ
 if we had a request with these in its XML:
 
 <pre>
- &gt findItemsByResponse
+  blablabla
+  findItemsByResponse
+  blablablablabla
 </pre>
 
 it would return the searchRS.xml since it matches.
