@@ -15,6 +15,7 @@ Remember, to use a mocking service you have to point your app/system url to the 
 
 E.G. Change URL = https://EbayWS.com/something to http://localhost:1337
 
+If you ever need to debug you can add console.log("") to output information to the console and if you need the contents of an object you can use util.inspect() to obtain it's values
 
 Functionality:
 -------------------------------------------------------------------
